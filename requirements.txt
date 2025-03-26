@@ -1,0 +1,23 @@
+geopandas==0.12.2
+shapely==2.0.1
+folium==0.14.0
+pyproj==3.5.0
+fiona==1.9.3
+matplotlib==3.7.1
+scipy==1.10.1
+numpy==1.24.3
+tqdm==4.65.0
+branca==0.6.0
+
+# Dependencias opcionales para aceleración GPU
+# Descomenta según tus necesidades
+
+# CuPy (aceleración CUDA principal) - compatible con CUDA 12.8
+cupy-cuda12x==13.4.0  # Última versión compatible con CUDA 12.x
+
+# PyTorch (alternativa para aceleración GPU)
+# torch==2.1.0
+
+# RAPIDS (suite completa de análisis de datos con GPU)
+# cudf-cu12==23.10.0  # Para CUDA 12.x
+# cuspatial-cu12==23.10.0  # Para CUDA 12.x 

@@ -1,0 +1,65 @@
+Comando: cd .. && py main.py gpu preciso grid 34060000000
+Fecha/Hora: 2025-03-26 05:03:34
+
+Modo GPU forzado por línea de comandos
+Modo preciso activado: se priorizará la precisión sobre la velocidad
+Método de división: grid
+Leyendo comunidades autónomas de: lineas_limite\SHP_ETRS89\recintos_autonomicas_inspire_peninbal_etrs89\recintos_autonomicas_inspire_peninbal_etrs89.shp
+Convirtiendo de EPSG:4258 a EPSG:4326 (WGS84)
+Leyendo municipios de: lineas_limite\SHP_ETRS89\recintos_municipales_inspire_peninbal_etrs89\recintos_municipales_inspire_peninbal_etrs89.shp
+Convirtiendo de EPSG:4258 a EPSG:4326 (WGS84)
+Modo preciso: intentando usar GPU para mayor precisión
+GPU detectada: NVIDIA GeForce RTX 4070 Laptop GPU (8.00 GB)
+Compute Capability: 8.9
+Usando funciones optimizadas para GPU
+Modo de procesamiento: GPU
+Procesando solo la comunidad autónoma con código: 34060000000
+
+Procesando comunidad autónoma: Cantabria (código 34060000000)
+Encontrados 135 municipios en Cantabria
+Guardando GeoJSON en: geojson_comunidades_zonas\34060000000_cantabria.geojson
+Archivo GeoJSON creado exitosamente. Contiene 3907 zonas.
+Leyendo GeoJSON: geojson_comunidades_zonas\34060000000_cantabria.geojson
+Guardando mapa en: geojson_comunidades_zonas\34060000000_cantabria_mapa_zonas.html
+Mapa creado exitosamente. Abre geojson_comunidades_zonas\34060000000_cantabria_mapa_zonas.html en tu navegador para visualizarlo.
+
+Proceso completado. Se han generado los siguientes archivos:
+ - geojson_comunidades_zonas\34060000000_cantabria.geojson
+
+Tiempo total de procesamiento: 00:00:10.00
+Transformación completada con éxito: 1 archivos GeoJSON generados
+
+====== AYUDA ======
+
+Este script acepta los siguientes parámetros:
+
+1. Código de comunidad autónoma:
+   py C:\Users\Gonzalo\Documents\4to curso\ISPP\vivaFranco\main.py 34010000000  # Ejemplo para Andalucía
+
+2. Modo de hardware:
+   py C:\Users\Gonzalo\Documents\4to curso\ISPP\vivaFranco\main.py cpu          # Fuerza el uso de CPU
+   py C:\Users\Gonzalo\Documents\4to curso\ISPP\vivaFranco\main.py gpu          # Fuerza el uso de GPU
+
+3. Método de división:
+   py C:\Users\Gonzalo\Documents\4to curso\ISPP\vivaFranco\main.py voronoi      # Usa el método de Voronoi (más preciso, más lento)
+   py C:\Users\Gonzalo\Documents\4to curso\ISPP\vivaFranco\main.py grid         # Usa el método de Grid (menos preciso, más rápido)
+
+4. Optimización automática:
+   py C:\Users\Gonzalo\Documents\4to curso\ISPP\vivaFranco\main.py rapido       # Prioriza velocidad (usa grid y CPU por defecto)
+   py C:\Users\Gonzalo\Documents\4to curso\ISPP\vivaFranco\main.py preciso      # Prioriza precisión (usa voronoi y GPU si disponible)
+
+Los parámetros se pueden combinar:
+   py C:\Users\Gonzalo\Documents\4to curso\ISPP\vivaFranco\main.py 34010000000 cpu rapido  # Procesa Andalucía con CPU en modo rápido
+
+Para visualizar un archivo GeoJSON ya generado:
+   py visualizar_geojson.py geojson_comunidades_zonas/34010000000_andalucia.geojson
+ERROR: 
+ERROR: Procesando municipios de Cantabria:   0%|          | 0/135 [00:00<?, ?it/s]
+ERROR: Procesando municipios de Cantabria:  21%|##        | 28/135 [00:00<00:00, 280.00it/s]
+ERROR: Procesando municipios de Cantabria:  45%|####5     | 61/135 [00:00<00:00, 307.60it/s]
+ERROR: Procesando municipios de Cantabria:  68%|######8   | 92/135 [00:00<00:00, 301.83it/s]
+ERROR: Procesando municipios de Cantabria:  91%|#########1| 123/135 [00:00<00:00, 252.91it/s]
+ERROR: Procesando municipios de Cantabria: 100%|##########| 135/135 [00:00<00:00, 266.27it/s]
+
+Tiempo total de procesamiento: 00:00:12.21
+Código de salida: 0

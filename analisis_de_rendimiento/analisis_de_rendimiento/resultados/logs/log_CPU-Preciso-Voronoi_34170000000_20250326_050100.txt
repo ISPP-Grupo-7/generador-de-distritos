@@ -1,0 +1,69 @@
+Comando: cd .. && py main.py cpu preciso voronoi 34170000000
+Fecha/Hora: 2025-03-26 05:01:00
+
+Modo CPU forzado por línea de comandos
+Modo preciso activado: se priorizará la precisión sobre la velocidad
+Método de división: voronoi
+Leyendo comunidades autónomas de: lineas_limite\SHP_ETRS89\recintos_autonomicas_inspire_peninbal_etrs89\recintos_autonomicas_inspire_peninbal_etrs89.shp
+Convirtiendo de EPSG:4258 a EPSG:4326 (WGS84)
+Leyendo municipios de: lineas_limite\SHP_ETRS89\recintos_municipales_inspire_peninbal_etrs89\recintos_municipales_inspire_peninbal_etrs89.shp
+Convirtiendo de EPSG:4258 a EPSG:4326 (WGS84)
+Usando modo CPU como se especificó
+Modo de procesamiento: CPU
+Procesando solo la comunidad autónoma con código: 34170000000
+
+Procesando comunidad autónoma: La Rioja (código 34170000000)
+Encontrados 237 municipios en La Rioja
+Guardando GeoJSON en: geojson_comunidades_zonas\34170000000_la_rioja.geojson
+Archivo GeoJSON creado exitosamente. Contiene 4904 zonas.
+Leyendo GeoJSON: geojson_comunidades_zonas\34170000000_la_rioja.geojson
+Guardando mapa en: geojson_comunidades_zonas\34170000000_la_rioja_mapa_zonas.html
+Mapa creado exitosamente. Abre geojson_comunidades_zonas\34170000000_la_rioja_mapa_zonas.html en tu navegador para visualizarlo.
+
+Proceso completado. Se han generado los siguientes archivos:
+ - geojson_comunidades_zonas\34170000000_la_rioja.geojson
+
+Tiempo total de procesamiento: 00:00:10.00
+Transformación completada con éxito: 1 archivos GeoJSON generados
+
+====== AYUDA ======
+
+Este script acepta los siguientes parámetros:
+
+1. Código de comunidad autónoma:
+   py C:\Users\Gonzalo\Documents\4to curso\ISPP\vivaFranco\main.py 34010000000  # Ejemplo para Andalucía
+
+2. Modo de hardware:
+   py C:\Users\Gonzalo\Documents\4to curso\ISPP\vivaFranco\main.py cpu          # Fuerza el uso de CPU
+   py C:\Users\Gonzalo\Documents\4to curso\ISPP\vivaFranco\main.py gpu          # Fuerza el uso de GPU
+
+3. Método de división:
+   py C:\Users\Gonzalo\Documents\4to curso\ISPP\vivaFranco\main.py voronoi      # Usa el método de Voronoi (más preciso, más lento)
+   py C:\Users\Gonzalo\Documents\4to curso\ISPP\vivaFranco\main.py grid         # Usa el método de Grid (menos preciso, más rápido)
+
+4. Optimización automática:
+   py C:\Users\Gonzalo\Documents\4to curso\ISPP\vivaFranco\main.py rapido       # Prioriza velocidad (usa grid y CPU por defecto)
+   py C:\Users\Gonzalo\Documents\4to curso\ISPP\vivaFranco\main.py preciso      # Prioriza precisión (usa voronoi y GPU si disponible)
+
+Los parámetros se pueden combinar:
+   py C:\Users\Gonzalo\Documents\4to curso\ISPP\vivaFranco\main.py 34010000000 cpu rapido  # Procesa Andalucía con CPU en modo rápido
+
+Para visualizar un archivo GeoJSON ya generado:
+   py visualizar_geojson.py geojson_comunidades_zonas/34010000000_andalucia.geojson
+ERROR: 
+ERROR: Procesando municipios de La Rioja:   0%|          | 0/237 [00:00<?, ?it/s]
+ERROR: Procesando municipios de La Rioja:   6%|6         | 15/237 [00:00<00:01, 147.06it/s]
+ERROR: Procesando municipios de La Rioja:  14%|#3        | 33/237 [00:00<00:01, 165.32it/s]
+ERROR: Procesando municipios de La Rioja:  24%|##4       | 58/237 [00:00<00:00, 199.18it/s]
+ERROR: Procesando municipios de La Rioja:  33%|###2      | 78/237 [00:00<00:00, 198.73it/s]
+ERROR: Procesando municipios de La Rioja:  42%|####1     | 99/237 [00:00<00:00, 200.59it/s]
+ERROR: Procesando municipios de La Rioja:  51%|#####     | 120/237 [00:00<00:00, 184.60it/s]
+ERROR: Procesando municipios de La Rioja:  60%|######    | 143/237 [00:00<00:00, 197.12it/s]
+ERROR: Procesando municipios de La Rioja:  71%|#######   | 168/237 [00:00<00:00, 209.85it/s]
+ERROR: Procesando municipios de La Rioja:  80%|########  | 190/237 [00:00<00:00, 204.37it/s]
+ERROR: Procesando municipios de La Rioja:  89%|########9 | 212/237 [00:01<00:00, 207.69it/s]
+ERROR: Procesando municipios de La Rioja:  99%|#########8| 234/237 [00:01<00:00, 210.66it/s]
+ERROR: Procesando municipios de La Rioja: 100%|##########| 237/237 [00:01<00:00, 201.19it/s]
+
+Tiempo total de procesamiento: 00:00:12.39
+Código de salida: 0

@@ -1,0 +1,291 @@
+RESUMEN DE EJECUCIONES
+=====================
+
+Config: CPU-Preciso-Voronoi
+Comunidad: 34170000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_CPU-Preciso-Voronoi_34170000000_20250326_050100.txt
+Archivos guardados: 1
+Tiempo de ejecución: 12.39 segundos
+
+--------------------------------------------------
+
+Config: CPU-Preciso-Grid
+Comunidad: 34170000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_CPU-Preciso-Grid_34170000000_20250326_050113.txt
+Archivos guardados: 1
+Tiempo de ejecución: 12.50 segundos
+
+--------------------------------------------------
+
+Config: CPU-Rapido-Voronoi
+Comunidad: 34170000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_CPU-Rapido-Voronoi_34170000000_20250326_050125.txt
+Archivos guardados: 1
+Tiempo de ejecución: 12.05 segundos
+
+--------------------------------------------------
+
+Config: CPU-Rapido-Grid
+Comunidad: 34170000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_CPU-Rapido-Grid_34170000000_20250326_050137.txt
+Archivos guardados: 1
+Tiempo de ejecución: 10.73 segundos
+
+--------------------------------------------------
+
+Config: GPU-Preciso-Voronoi
+Comunidad: 34170000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_GPU-Preciso-Voronoi_34170000000_20250326_050148.txt
+Archivos guardados: 1
+Tiempo de ejecución: 13.45 segundos
+
+--------------------------------------------------
+
+Config: GPU-Preciso-Grid
+Comunidad: 34170000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_GPU-Preciso-Grid_34170000000_20250326_050202.txt
+Archivos guardados: 1
+Tiempo de ejecución: 10.93 segundos
+
+--------------------------------------------------
+
+Config: GPU-Rapido-Voronoi
+Comunidad: 34170000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_GPU-Rapido-Voronoi_34170000000_20250326_050213.txt
+Archivos guardados: 1
+Tiempo de ejecución: 13.28 segundos
+
+--------------------------------------------------
+
+Config: GPU-Rapido-Grid
+Comunidad: 34170000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_GPU-Rapido-Grid_34170000000_20250326_050226.txt
+Archivos guardados: 1
+Tiempo de ejecución: 10.74 segundos
+
+--------------------------------------------------
+
+Config: CPU-Preciso-Voronoi
+Comunidad: 34060000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_CPU-Preciso-Voronoi_34060000000_20250326_050237.txt
+Archivos guardados: 1
+Tiempo de ejecución: 11.63 segundos
+
+--------------------------------------------------
+
+Config: CPU-Preciso-Grid
+Comunidad: 34060000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_CPU-Preciso-Grid_34060000000_20250326_050248.txt
+Archivos guardados: 1
+Tiempo de ejecución: 10.45 segundos
+
+--------------------------------------------------
+
+Config: CPU-Rapido-Voronoi
+Comunidad: 34060000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_CPU-Rapido-Voronoi_34060000000_20250326_050259.txt
+Archivos guardados: 1
+Tiempo de ejecución: 11.26 segundos
+
+--------------------------------------------------
+
+Config: CPU-Rapido-Grid
+Comunidad: 34060000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_CPU-Rapido-Grid_34060000000_20250326_050310.txt
+Archivos guardados: 1
+Tiempo de ejecución: 10.52 segundos
+
+--------------------------------------------------
+
+Config: GPU-Preciso-Voronoi
+Comunidad: 34060000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_GPU-Preciso-Voronoi_34060000000_20250326_050320.txt
+Archivos guardados: 1
+Tiempo de ejecución: 13.32 segundos
+
+--------------------------------------------------
+
+Config: GPU-Preciso-Grid
+Comunidad: 34060000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_GPU-Preciso-Grid_34060000000_20250326_050334.txt
+Archivos guardados: 1
+Tiempo de ejecución: 12.21 segundos
+
+--------------------------------------------------
+
+Config: GPU-Rapido-Voronoi
+Comunidad: 34060000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_GPU-Rapido-Voronoi_34060000000_20250326_050346.txt
+Archivos guardados: 1
+Tiempo de ejecución: 13.22 segundos
+
+--------------------------------------------------
+
+Config: GPU-Rapido-Grid
+Comunidad: 34060000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_GPU-Rapido-Grid_34060000000_20250326_050359.txt
+Archivos guardados: 1
+Tiempo de ejecución: 10.68 segundos
+
+--------------------------------------------------
+
+Config: CPU-Preciso-Voronoi
+Comunidad: 34180000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_CPU-Preciso-Voronoi_34180000000_20250326_050410.txt
+Archivos guardados: 1
+Tiempo de ejecución: 5.67 segundos
+
+--------------------------------------------------
+
+Config: CPU-Preciso-Grid
+Comunidad: 34180000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_CPU-Preciso-Grid_34180000000_20250326_050416.txt
+Archivos guardados: 1
+Tiempo de ejecución: 5.67 segundos
+
+--------------------------------------------------
+
+Config: CPU-Rapido-Voronoi
+Comunidad: 34180000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_CPU-Rapido-Voronoi_34180000000_20250326_050421.txt
+Archivos guardados: 1
+Tiempo de ejecución: 5.62 segundos
+
+--------------------------------------------------
+
+Config: CPU-Rapido-Grid
+Comunidad: 34180000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_CPU-Rapido-Grid_34180000000_20250326_050427.txt
+Archivos guardados: 1
+Tiempo de ejecución: 5.90 segundos
+
+--------------------------------------------------
+
+Config: GPU-Preciso-Voronoi
+Comunidad: 34180000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_GPU-Preciso-Voronoi_34180000000_20250326_050433.txt
+Archivos guardados: 1
+Tiempo de ejecución: 5.76 segundos
+
+--------------------------------------------------
+
+Config: GPU-Preciso-Grid
+Comunidad: 34180000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_GPU-Preciso-Grid_34180000000_20250326_050439.txt
+Archivos guardados: 1
+Tiempo de ejecución: 5.67 segundos
+
+--------------------------------------------------
+
+Config: GPU-Rapido-Voronoi
+Comunidad: 34180000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_GPU-Rapido-Voronoi_34180000000_20250326_050444.txt
+Archivos guardados: 1
+Tiempo de ejecución: 5.67 segundos
+
+--------------------------------------------------
+
+Config: GPU-Rapido-Grid
+Comunidad: 34180000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_GPU-Rapido-Grid_34180000000_20250326_050450.txt
+Archivos guardados: 1
+Tiempo de ejecución: 5.71 segundos
+
+--------------------------------------------------
+
+Config: CPU-Preciso-Voronoi
+Comunidad: 34190000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_CPU-Preciso-Voronoi_34190000000_20250326_050456.txt
+Archivos guardados: 1
+Tiempo de ejecución: 5.74 segundos
+
+--------------------------------------------------
+
+Config: CPU-Preciso-Grid
+Comunidad: 34190000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_CPU-Preciso-Grid_34190000000_20250326_050501.txt
+Archivos guardados: 1
+Tiempo de ejecución: 6.17 segundos
+
+--------------------------------------------------
+
+Config: CPU-Rapido-Voronoi
+Comunidad: 34190000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_CPU-Rapido-Voronoi_34190000000_20250326_050508.txt
+Archivos guardados: 1
+Tiempo de ejecución: 5.23 segundos
+
+--------------------------------------------------
+
+Config: CPU-Rapido-Grid
+Comunidad: 34190000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_CPU-Rapido-Grid_34190000000_20250326_050513.txt
+Archivos guardados: 1
+Tiempo de ejecución: 5.25 segundos
+
+--------------------------------------------------
+
+Config: GPU-Preciso-Voronoi
+Comunidad: 34190000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_GPU-Preciso-Voronoi_34190000000_20250326_050518.txt
+Archivos guardados: 1
+Tiempo de ejecución: 4.99 segundos
+
+--------------------------------------------------
+
+Config: GPU-Preciso-Grid
+Comunidad: 34190000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_GPU-Preciso-Grid_34190000000_20250326_050523.txt
+Archivos guardados: 1
+Tiempo de ejecución: 4.99 segundos
+
+--------------------------------------------------
+
+Config: GPU-Rapido-Voronoi
+Comunidad: 34190000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_GPU-Rapido-Voronoi_34190000000_20250326_050528.txt
+Archivos guardados: 1
+Tiempo de ejecución: 5.01 segundos
+
+--------------------------------------------------
+
+Config: GPU-Rapido-Grid
+Comunidad: 34190000000
+Código de salida: 0
+Log: analisis_de_rendimiento\resultados\logs\log_GPU-Rapido-Grid_34190000000_20250326_050533.txt
+Archivos guardados: 1
+Tiempo de ejecución: 4.98 segundos
+
+--------------------------------------------------
+
